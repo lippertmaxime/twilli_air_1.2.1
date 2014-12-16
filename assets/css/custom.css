@@ -1,0 +1,420 @@
+/*@import url(http://fonts.googleapis.com/css?family=Handlee);
+
+<link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+
+div,body,p {
+    font-family: 'Handlee', cursive;
+}
+
+
+.btn,
+p a,
+#left-sidebar #main-menu,
+#main-content,
+#main-content .projects-grid > li > .item-content .overlay .title,
+#main-content .projects-grid .grid-item .item-content .overlay .title,
+.owl-carousel .owl-item .caption {
+    font-family: 'Handlee', cursive;
+}
+
+#main-content .contact-details {
+    font-family: 'Handlee', cursive;
+}
+
+#footer {
+    font-family: 'Handlee', cursive;
+}
+
+strong,
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,
+dt,
+#left-sidebar #main-menu > li.menu-item.active > *,
+#main-content .form-style .alert,
+#main-content .carousel .carousel-indicators.title-indicators li,
+#main-content .carousel *.title,
+.social-icons {
+    font-family: 'Handlee', cursive;
+}*/
+
+
+/*From Hipsterish creator*/
+
+@import url('fonts/hipsterish/hipsterish/stylesheet.css');
+
+@font-face {
+    font-family: 'hipsterishfontnormal';
+    src: url('fonts/hipsterish/hipsterish/hipsterishfontnormal.eot');
+    src: url('fonts/hipsterish/hipsterish/hipsterishfontnormal.eot?#iefix') format('embedded-opentype'),
+         url('fonts/hipsterish/hipsterish/hipsterishfontnormal.woff2') format('woff2'),
+         url('fonts/hipsterish/hipsterish/hipsterishfontnormal.woff') format('woff'),
+         url('fonts/hipsterish/hipsterish/hipsterishfontnormal.ttf') format('truetype'),
+         url('fonts/hipsterish/hipsterish/hipsterishfontnormal.svg#hipsterishfontnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+div,body,p{
+    font-family: 'hipsterishfontnormal', sans-serif; 
+    font-weight: normal;
+    
+}
+
+.btn,
+p a,
+#left-sidebar #main-menu,
+#main-content,
+#main-content .projects-grid > li > .item-content .overlay .title,
+#main-content .projects-grid .grid-item .item-content .overlay .title,
+.owl-carousel .owl-item .caption {
+    font-family: 'hipsterishfontnormal', sans-serif; 
+    font-weight: normal; 
+    
+}
+
+#main-content .contact-details {
+    font-family: 'hipsterishfontnormal', sans-serif; 
+    font-weight: normal; 
+
+}
+
+#footer {
+    font-family: 'hipsterishfontnormal', sans-serif; 
+    font-weight: normal; 
+
+}
+
+strong,
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,
+dt,
+#left-sidebar #main-menu > li.menu-item.active > *,
+#main-content .form-style .alert,
+#main-content .carousel .carousel-indicators.title-indicators li,
+#main-content .carousel *.title,
+.social-icons {
+    font-family: 'hipsterishfontnormal', sans-serif; 
+
+}
+
+/*FONT-SIZE*/
+
+body,p,div,blockquote,#left-sidebar #main-menu {
+      font-size:24px;
+}
+
+#footer {
+    font-size:0.8em;    
+}
+
+.btn {
+      font-size:22px;
+}
+
+
+p a,
+#main-content .projects-grid > li > .item-content .overlay .title,
+#main-content .projects-grid .grid-item .item-content .overlay .title,
+.owl-carousel .owl-item .caption {
+font-size:22px;
+}
+
+#left-sidebar #main-menu > li.menu-item.active > * {
+font-size:26px; 
+}
+
+
+/*#main-content .contact-details,
+#main-content{
+font-size:20px;
+}*/
+
+
+
+
+/*COLORS*/
+#left-sidebar #main-menu,
+.owl-carousel .owl-item .caption,
+#main-content .form-style .alert,
+#main-content .carousel .carousel-indicators.title-indicators li,
+#main-content .carousel *.title,
+body,
+p a,
+#left-sidebar #main-menu,
+#main-content,
+#main-content .projects-grid > li > .item-content .overlay .title,
+#main-content .projects-grid .grid-item .item-content .overlay .title,
+.owl-carousel .owl-item .caption,
+.caption
+ {
+  color: rgb(255,255,255);   
+}
+
+strong,
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,
+dt,
+#main-content .form-style .alert,
+#main-content .carousel .carousel-indicators.title-indicators li,
+#main-content .carousel *.title {
+      color: rgb(255,255,255);
+}
+
+#left-sidebar #main-menu > li.menu-item.active > *,
+.social-icons,
+#footer,
+#main-content .contact-details {
+      color:rgb(229,200,110);
+}
+
+.btn{
+  border-color: rgb(95,188,123);
+  color:rgb(229,200,110);
+  /*color: rgb(95,188,123);*/
+  /*background-color:rgb(95,188,123);*/
+}
+
+
+/*#btnutile {
+  background-color:rgb(229,200,110);
+  color: rgba(0,0,0,1);
+}*/
+
+
+
+/*EVENT STYLING*/
+#flyers {
+    text-align:center;
+    border: 1px dotted;
+    border-color: rgb(229,200,110);
+    /*color: rgb(95,188,123);   */
+    }
+
+ #putiles {
+    text-align: left;
+}
+
+#milieu {
+    text-align: center;
+}
+#iconsflyers {
+    padding:0;
+}
+
+
+
+/*#iconsutiles {
+    padding:0;
+    margin:0;
+    border-top: 0;
+    border-bottom: 0;
+    border-spacing: 0;
+    line-height: 0;
+}
+
+#infoutiles p {
+    line-height: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    .center-block();
+}*/
+
+ 
+/*
+
+opacity: 0.99;
+background-color: LightSteelBlue ;*/
+
+/*#flyerstext {
+    
+    color: #ffffff;*/
+}
+/*margin: 30px 40px;*/
+     /*filter: alpha(opacity=60); /* For IE8 and earlier */
+
+
+/*BUTTONS*/
+.border-top-radius(@radius) {
+  border-top-right-radius: @radius;
+   border-top-left-radius: @radius;
+}
+.border-right-radius(@radius) {
+  border-bottom-right-radius: @radius;
+     border-top-right-radius: @radius;
+}
+.border-bottom-radius(@radius) {
+  border-bottom-right-radius: @radius;
+   border-bottom-left-radius: @radius;
+}
+.border-left-radius(@radius) {
+  border-bottom-left-radius: @radius;
+     border-top-left-radius: @radius;
+}
+
+.btn {
+border-radius: 25px;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+}
+
+/* Glyph, by Harry Roberts */
+    
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double rgba(255,255,255,0.4);
+    color: rgba(255,255,255,0.4);
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "";
+    display: inline-block;
+    position: relative; 
+    top: -0.7em;  
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: rgba(255,255,255,0);
+}
+
+
+/* For the Youtube video player */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#trailer {
+    width: 515px;
+    height: 400px;
+}
+
+
+/*LIGNE DU TEMPS*/
+/* -------------------------------------
+ * For horizontal version, set the
+ * $vertical variable to false
+ * ------------------------------------- */
+/* -------------------------------------
+ * General Style
+ * ------------------------------------- */
+
+/* -------------------------------------
+ * timeline
+ * ------------------------------------- */
+#timeline {
+  list-style: none;
+  margin: 30px 0 0;
+  padding: 0;
+  border-top: 8px solid #eee9dc;
+  display: table;
+  border-spacing: 30px 0; }
+  #timeline li {
+    display: table-cell; }
+    #timeline li .relative {
+      position: relative; }
+  #timeline p {
+    margin: 0 0 15px; }
+
+.date {
+  text-align: center;
+  top: -55px;
+  left: 0;
+  right: 0;
+  font-size: 0.95em;
+  line-height: 20px;
+  position: absolute; }
+
+.circle {
+  margin: 0 auto;
+  top: -14px;
+  left: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background: #48b379;
+  border: 5px solid #eee9dc;
+  border-radius: 50%;
+  display: block;
+  position: absolute; }
+
+.content {
+  width: 200px;
+  max-height: 0;
+  margin-top: 40px;
+  vertical-align: top;
+  padding: 50px 15px 15px;
+  transition: width 0.4s linear, max-height 0.4s linear;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0.5em;
+  position: relative; }
+  .content:before, .content:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    position: absolute;
+    pointer-events: none;
+    bottom: 100%; }
+  .content:before {
+    border-bottom-color: inherit;
+    border-width: 15px;
+    left: 50%;
+    margin-left: -15px; }
+  .content:after {
+    border-bottom-color: #48b379;
+    border-width: 12px;
+    left: 50%;
+    margin-left: -12px; }
+  .content p {
+    max-height: 0;
+    color: transparent;
+    text-align: justify;
+    word-break: break-word;
+    hyphens: auto;
+    overflow: hidden; }
+
+label {
+  font-size: 1.3em;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  width: 200px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  top: 60px;
+  left: 15px; }
+
+.radio {
+  display: none; }
+
+.radio:checked + .relative label {
+  cursor: auto;
+  width: 400px;
+  transition: width 0.3s linear 0.2s; }
+.radio:checked + .relative .circle {
+  background: #f98262; }
+.radio:checked ~ .content {
+  max-height: 180px;
+  border-color: #eee9dc;
+  width: 400px; }
+  .radio:checked ~ .content p {
+    max-height: 200px;
+    color: #eee9dc;
+    transition: color 0.3s linear 0.3s; }
+
+/* -------------------------------------
+ * mobile phones (vertical version only)
+ * ------------------------------------- */
